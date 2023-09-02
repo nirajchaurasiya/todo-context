@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 60vw;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid rgb(205, 200, 200);
+}
+
+
+@media (max-width:600px) {
+    .container {
+        width: 90vw;
+        margin: auto;
+        border: 1px solid black;
+    }
+}
+
+/* TodoList.css */
+.todos {
+    text-align: center;
+    margin: 20px;
+}
+
+.todo-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.todo-table th,
+.todo-table td {
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+
+.todo-table tbody {
+    display: contents;
+    height: 300px;
+    /* Set the desired height for the table body */
+    overflow-y: scroll;
+    /* Enable vertical scrolling if content exceeds height */
+}
+
+button {
+    border: 1px solid rgb(183, 172, 172);
+    font-size: 10px;
+    margin: 1px;
+    cursor: pointer;
+    padding: 1px;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.notodofound {
+    font-size: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,26 @@
+.add_todo p {
+    text-align: center;
+}
+
+.add_todo form {
+    padding-top: 15px;
+    display: grid;
+    max-width: 600px;
+    margin: auto;
+    gap: 10px;
+}
+
+.add_todo form input {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(211, 207, 207);
+}
+
+.add_todo form button {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(211, 207, 207);
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+}
